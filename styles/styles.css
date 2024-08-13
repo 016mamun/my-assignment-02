@@ -12,11 +12,7 @@ body {
 }
 
 header {
-    background: #000;
-    padding: 20px;
-    
-    
-    
+    padding: 20px; 
 }
 
 .logo {
@@ -63,5 +59,135 @@ header {
     background-color: #e6533c;
     border-radius: 46px;
     padding: 8px 20px 8px 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h2 {
+    font-size: 78px;
+    line-height: 1.2;
+    color: #fff;
+    margin-bottom: 28px;
+}
+
+.hero-text span {
+    color: #f00;
+    font-style: italic;
+}
+
+.text-1 {
+    font-size: 16px;
+    margin-bottom: 28px;
+    font-weight: normal;
+}
+
+.hero-buttons .btn {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+
+}
+
+.primary-btn {
+    border-width: 1px;
+    padding: 4px 4px 4px 4px;
     border-radius: 46px;
+    align-items: center;
+    width: 165px;
+    height: 54px;
+    font-size: 18px;
+    font-weight: 400px;
+    background-color: #e6533c;
+}
+
+.secondary-btn {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    padding: 4px 4px 4px 4px;
+    border-radius: 46px;
+    align-items: center;
+    width: 165px;
+    height: 54px;
+    font-size: 18px;
+    font-weight: 400px;
+
+}
+
+.hero-image {
+    width: 349px;
+    height: 580px;
+}
+
+.text-0-1-1 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: left;
+    vertical-align: top;
+  }
+  .text-0-1-2 {
+    
+    color: #ffffffa6;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .overlay-text {
+    position: absolute;
+    left: 1080px;
+    top: 252px;
+    width: 193px;
+    height: 98px;
+    border-width: 1px;
+    padding: 4px 4px 4px 4px;
+    border-radius: 12px;
+    background-color: #1f1d1d;
+    text-indent: 25px;
+  }
+.video-tutorial {
+    position: absolute;
+    left: 750px;
+    top: 552px;
+    width: 206px;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    background-color: #1f1d1d;
+    padding: 4px 4px 4px 4px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    background-color: #f44336; /* Red circle */
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.text-content h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 900px;
+}
+
+.text-content p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #ccc;
 }
