@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.first {
+    height: 715px;
+}
+
 body {
     font-family: Arial, sans-serif;
     color: #fff;
@@ -191,3 +195,203 @@ header {
     font-weight: 400px;
     color: #ccc;
 }
+
+.features {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: black;
+}
+ .change {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900px;
+    margin-bottom: 14px;
+ }
+
+ .we {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400px;
+    margin-bottom: 58px;
+ }
+
+ /* .features-grid {
+    display: flex;
+    width: 344px;
+    height: 299px;
+    border-radius: 50%;
+    padding: 10px;
+ }
+
+ .font{
+    font-size: 24px;
+    font-weight: 800;
+  }
+  
+  .family{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D1321;
+  } */
+
+  .features1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 135px 0px 135px;
+}
+
+.feature-item {
+    text-align: center;
+    color: #fff;
+}
+
+.feature-item img {
+    width: 180px; /* Set your desired width */
+    height: 180px; /* Set your desired height */
+    border-radius: 50%;
+    object-fit: cover; /* Ensure the image covers the circle */
+    margin-bottom: 10px;
+    border: 5px solid #000; /* Optional: Add a border around the image */
+}
+
+.feature-item h3 {
+    margin: 10px 0 5px 0;
+    font-size: 18px;
+}
+
+.feature-item p {
+    font-size: 14px;
+    color: #ccc;
+    width: 231px;
+    height: 36px;
+}
+
+.gym {
+    border-radius: 18px;
+    background: #222222;
+    display: flex;
+    padding: 30px 32px 29px 54px;
+    width: 1060px;
+    height: 371px;
+    margin: 100px 190px 100px 140px;
+    padding-bottom: 
+}
+
+.run {
+    margin: 0px 0px 0px 70px;
+    width: 366px;
+    height: 312px;  
+    border-radius: 18px;
+}
+
+.extra {
+        margin-bottom: 14px;
+        display: inline-block;
+        align-self: flex-start;
+        overflow-wrap: break-word;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 1.2;
+        color: #FFFFFF;
+        width: 443px;
+        height: 116px;
+        font-size: 48px;
+      }
+  .mile {
+        overflow-wrap: break-word;
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 0.3px;
+        line-height: 1.714;
+        color: rgba(255, 255, 255, 0.5);
+        width: 443px;
+        height: 72px;
+      }
+.button {
+        margin-top: 34px;
+        border-radius: 42px;
+        background: #E6533C;
+        display: flex;
+        align-self: flex-start;
+        padding: 16px 0.7px 16px 0;
+        width: 224px;
+        height: 54px;
+        box-sizing: border-box;
+      }
+
+.join-now {
+        overflow-wrap: break-word;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.222;
+        color: #FFFFFF;
+        width: 81px;
+        height: 22px;
+        margin-left: 70px;
+      }
+.frame {
+        .desktop-1 .frame-40 {
+            margin: 11px 199.4px 11px 0;
+          }
+    }
+/* .hero-text {
+    max-width: 50%;
+}
+
+.hero-text h2 {
+    font-size: 78px;
+    line-height: 1.2;
+    color: #fff;
+    margin-bottom: 28px;
+}
+
+.hero-text span {
+    color: #f00;
+    font-style: italic;
+}
+
+.text-1 {
+    font-size: 16px;
+    margin-bottom: 28px;
+    font-weight: normal;
+}
+
+.hero-buttons .btn {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+
+}
+
+.primary-btn {
+    border-width: 1px;
+    padding: 4px 4px 4px 4px;
+    border-radius: 46px;
+    align-items: center;
+    width: 165px;
+    height: 54px;
+    font-size: 18px;
+    font-weight: 400px;
+    background-color: #e6533c;
+}
+
+.secondary-btn {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    padding: 4px 4px 4px 4px;
+    border-radius: 46px;
+    align-items: center;
+    width: 165px;
+    height: 54px;
+    font-size: 18px;
+    font-weight: 400px;
+
+}
+
+.hero-image {
+    width: 349px;
+    height: 580px;
+} */
