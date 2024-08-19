@@ -818,3 +818,179 @@ hr {
     padding: 14px 276px 14px 30px;
 }
 
+
+
+
+/* Media Query */
+@media screen and (max-width:576px) {
+    .header {
+        max-width: 100%;
+        padding-top: 20px;
+    }
+
+    .menu {
+        display: block;
+
+
+    }
+
+    .menu img {
+        filter: invert(1);
+        width: 21px;
+        height: 21px;
+    }
+
+    .web-title {
+        font-size: 36px;
+    }
+
+    .area {
+        width: 90%;
+    }
+
+    .nav {
+        padding-right: 0px;
+        column-gap: 58%;
+    }
+
+
+    .navbar {
+        display: none;
+    }
+
+    .banner {
+        flex-direction: column;
+    }
+
+    .banner-title {
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 120%;
+    }
+
+    .banner-detail {
+        font-size: 16px;
+        font-weight: 400;
+        width: 79%;
+    }
+
+    .buttons {
+        display: flex;
+        align-items: center;
+    }
+
+    .btn-primary {
+        padding: 16px 25px 16px 25px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .btn-second {
+        padding: 16px 20px 16px 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .club {
+        display: none;
+    }
+
+    .image-box {
+        position: relative;
+    }
+
+    .box-1 {
+        top: 7%;
+        left: 57%;
+        right: 2%;
+        padding: 11px 13px 10px 17px;
+    }
+
+    .box-1-title {
+        font-size: 30px;
+        font-weight: 900;
+    }
+
+    .box-1-detail {
+        font-size: 9px;
+        font-weight: 400;
+        margin: -1px;
+        width: 100%;
+    }
+
+    .box-2 {
+        top: 45.5%;
+        right: 51.8%;
+        padding: 16px 17px;
+    }
+
+    .box-2-title {
+        font-size: 18.14px;
+        font-weight: 900;
+    }
+
+    .box-2-detail {
+        font-size: 12.1px;
+        font-weight: 400;
+        line-height: 18.14px;
+        letter-spacing: 0.38px;
+        margin: 0;
+        width: 100%;
+    }
+
+    .circle {
+        position: relative;
+
+    }
+
+    .circle img {
+        display: inline;
+        position: absolute;
+        top: 15%;
+        left: 7%;
+        width: 25px;
+        height: 25px;
+        transform: rotate(270deg);
+        filter: invert(1);
+    }
+
+    .cards {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .card-title {
+        margin-right: 0px;
+        margin-top: 30px;
+        margin-bottom: 6px;
+    }
+
+    .card-detail {
+        width: 200px !important;
+        margin: 0 auto !important;
+    }
+
+    .sec-3-card {
+        margin: 0 auto;
+        padding-bottom: 40px;
+    }
+
+    .sec-3-detail {
+        margin: 0 auto;
+        width: 288px;
+        font-size: 0.77rem;
+        font-weight: 400;
+        line-height: 23px;
+        padding-bottom: 10px;
+    }
+
+    .sec-3-title {
+        font-size: 28px;
+        font-weight: 900;
+        width: 100%;
+    }
+
+    .sec-3-box-1 {
+        padding-top: 5px;
+    }
+
