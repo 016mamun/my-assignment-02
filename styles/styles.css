@@ -1147,10 +1147,12 @@ hr {
     .btn-third,
     .fifth {
         padding: 15px 22px;
+        font-size: 19px;
     }
 
     .btn-forth,
     .sixth {
+        padding: 15px 22px;
         font-size: 19px;
     }
 
