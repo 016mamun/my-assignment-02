@@ -183,8 +183,6 @@ main,
     padding-bottom: 0px;
     padding-left: 21px;
     padding-right: 21px;
-
-
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
@@ -223,12 +221,9 @@ main,
     padding: 18px 20px;
     align-items: center;
     gap: 7px;
-
-
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
-
     backdrop-filter: blur(10px);
     background: rgba(48, 48, 48, 0.54);
 }
@@ -297,7 +292,6 @@ main,
     text-align: center;
     margin: 0 0 50px 200px;
     width: 590px;
-
 }
 
 .cards {
@@ -713,10 +707,6 @@ select {
     font-size: 40px;
 }
 
-.mo {
-    font-size: 16px;
-}
-
 .buttons {
     justify-content: space-between;
     margin-top: 40px;
@@ -837,8 +827,6 @@ hr {
 
     .menu {
         display: block;
-
-
     }
 
     .menu img {
